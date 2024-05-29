@@ -1,0 +1,15 @@
+{
+    "printWidth": 120,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "overrides": [
+      {
+        "files": "*.blade.php",
+        "options": {
+          "parser": "php",
+          "htmlWhitespaceSensitivity": "ignore"
+        }
+      }
+    ]
+  }
